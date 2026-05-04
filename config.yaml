@@ -1,0 +1,14 @@
+model: gpt-4o
+temperature: 0.2
+max_context_tokens: 32000
+
+agents:
+  - parser_agent
+  - reasoning_agent
+  - script_agent
+  - validation_agent
+
+runtime:
+  long_chain_reasoning: true
+  auto_script_export: true
+  compatibility_check: true
